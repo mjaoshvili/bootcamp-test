@@ -24,4 +24,4 @@ indices:
         value: match(attribute(el, "content"), "https:\/\/[^/]+(/.*)") 
       description: 
         select: head > meta[property="og:description"] 
-        value: attribute(el, "content") s
+        value: attribute(el, "content")
